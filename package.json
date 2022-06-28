@@ -1,9 +1,9 @@
 {
-  "name": "ts-cli",
+  "name": "@lbingxin/ts-cli",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "repository": "https://github.com/LBINGXIN/ts-cli.git",
-  "author": "LBINGXIN <lbingxin12@gmail.com>",
+  "author": "LBINGXIN",
   "license": "MIT",
   "bin": {
     "ts-cli": "./bin/ts-cli.js"
@@ -17,6 +17,19 @@
     "prepare": "husky install",
     "build": "npm run eslint && npm run prettier && tsc --build"
   },
+  "keywords": [
+    "typescript",
+    "cli",
+    "typescript 脚手架",
+    "ts 脚手架",
+    "ts-cli",
+    "脚手架"
+  ],
+  "files": [
+    "package.json",
+    "README.md",
+    "lib"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^17.0.2",
     "@commitlint/config-conventional": "^17.0.2",
